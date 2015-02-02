@@ -7,6 +7,12 @@
 //
 
 #import "AppDelegate.h"
+#import "MainViewController.h"
+#import "LoginViewController.h"
+#import "TestViewController.h"
+
+
+
 
 @interface AppDelegate ()
 
@@ -17,6 +23,23 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.backgroundColor = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];
+    
+//    MainViewController *mainViewController = [[MainViewController alloc] init];
+//    tabBarController.viewControllers = viewControllers;
+    
+    
+    
+    LoginViewController *loginViewController = [[LoginViewController alloc] init];
+    UINavigationController *loginNav = [[UINavigationController alloc] initWithRootViewController: loginViewController];
+    self.window.rootViewController = loginNav;
+    
+//    TestViewController *testViewController = [[TestViewController alloc] init];
+//    testViewController.title = @"TableView";
+//    UINavigationController *testNav = [[UINavigationController alloc] initWithRootViewController: testViewController];
+//    self.window.rootViewController = testNav;
     return YES;
 }
 

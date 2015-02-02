@@ -7,13 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9729408EFE411EB9F2A2F971 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E2C9B2319DA86526D9783AE3 /* libPods.a */; };
+		FD00AE861A736E0400F77335 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD00AE851A736E0400F77335 /* LoginViewController.m */; };
+		FD00AE891A737EAC00F77335 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD00AE881A737EAC00F77335 /* RegisterViewController.m */; };
+		FD00AE8C1A7395CB00F77335 /* PasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD00AE8B1A7395CB00F77335 /* PasswordViewController.m */; };
+		FD231EB81A6CC05100C60E54 /* OtherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD231EB71A6CC05100C60E54 /* OtherViewController.m */; };
+		FD454CE21A6D1B63008DB479 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = FD454CE11A6D1B63008DB479 /* 1.png */; };
+		FD454CE41A6D1BAC008DB479 /* tabBar.png in Resources */ = {isa = PBXBuildFile; fileRef = FD454CE31A6D1BAC008DB479 /* tabBar.png */; };
+		FD58136B1A791204002B787C /* BingoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD58136A1A791204002B787C /* BingoViewController.m */; };
 		FD5C00271A678E57005C2061 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD5C00261A678E57005C2061 /* main.m */; };
 		FD5C002A1A678E57005C2061 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD5C00291A678E57005C2061 /* AppDelegate.m */; };
-		FD5C002D1A678E57005C2061 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD5C002C1A678E57005C2061 /* ViewController.m */; };
-		FD5C00301A678E57005C2061 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD5C002E1A678E57005C2061 /* Main.storyboard */; };
 		FD5C00321A678E57005C2061 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD5C00311A678E57005C2061 /* Images.xcassets */; };
-		FD5C00351A678E57005C2061 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD5C00331A678E57005C2061 /* LaunchScreen.xib */; };
 		FD5C00411A678E57005C2061 /* iosDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD5C00401A678E57005C2061 /* iosDemoTests.m */; };
+		FD5C004C1A67A112005C2061 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD5C004B1A67A112005C2061 /* HomeViewController.m */; };
+		FD5C004F1A67A1B8005C2061 /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD5C004E1A67A1B8005C2061 /* MessageViewController.m */; };
+		FD5C00521A67A1D1005C2061 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD5C00511A67A1D1005C2061 /* SearchViewController.m */; };
+		FD5C00551A67A1E6005C2061 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD5C00541A67A1E6005C2061 /* SettingViewController.m */; };
+		FD5FA1E61A6F2A3E00516DDE /* select.png in Resources */ = {isa = PBXBuildFile; fileRef = FD5FA1E51A6F2A3E00516DDE /* select.png */; };
+		FD5FA1EB1A6F2F3600516DDE /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = FD5FA1E71A6F2F3600516DDE /* 2.png */; };
+		FD5FA1EC1A6F2F3600516DDE /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = FD5FA1E81A6F2F3600516DDE /* 3.png */; };
+		FD5FA1ED1A6F2F3600516DDE /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = FD5FA1E91A6F2F3600516DDE /* 4.png */; };
+		FD5FA1EE1A6F2F3600516DDE /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = FD5FA1EA1A6F2F3600516DDE /* 5.png */; };
+		FDD8146F1A78C70000D262DD /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDD8146E1A78C70000D262DD /* TestViewController.m */; };
+		FDDA040A1A7B5540003B315D /* TestTableViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDDA04091A7B5540003B315D /* TestTableViewViewController.m */; };
+		FDF02E1C1A7CD5A40068479B /* ios_demo1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FDF02E1B1A7CD5A40068479B /* ios_demo1.jpg */; };
+		FDFB872B1A6A2E3B00B10BDD /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDFB872A1A6A2E3B00B10BDD /* MainViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +45,50 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		47CDFC6C7DBE14C0C0A21031 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		BEC9D34C862F70774104CAE5 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		E2C9B2319DA86526D9783AE3 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD00AE841A736E0400F77335 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		FD00AE851A736E0400F77335 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		FD00AE871A737EAC00F77335 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		FD00AE881A737EAC00F77335 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		FD00AE8A1A7395CB00F77335 /* PasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PasswordViewController.h; sourceTree = "<group>"; };
+		FD00AE8B1A7395CB00F77335 /* PasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PasswordViewController.m; sourceTree = "<group>"; };
+		FD231EB61A6CC05100C60E54 /* OtherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OtherViewController.h; sourceTree = "<group>"; };
+		FD231EB71A6CC05100C60E54 /* OtherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OtherViewController.m; sourceTree = "<group>"; };
+		FD454CE11A6D1B63008DB479 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 1.png; path = ../../../../../Downloads/1.png; sourceTree = "<group>"; };
+		FD454CE31A6D1BAC008DB479 /* tabBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tabBar.png; path = ../../../../../Downloads/tabBar.png; sourceTree = "<group>"; };
+		FD5813691A791204002B787C /* BingoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BingoViewController.h; sourceTree = "<group>"; };
+		FD58136A1A791204002B787C /* BingoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BingoViewController.m; sourceTree = "<group>"; };
 		FD5C00211A678E57005C2061 /* iosDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iosDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD5C00251A678E57005C2061 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FD5C00261A678E57005C2061 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FD5C00281A678E57005C2061 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FD5C00291A678E57005C2061 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FD5C002B1A678E57005C2061 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		FD5C002C1A678E57005C2061 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		FD5C002F1A678E57005C2061 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FD5C00311A678E57005C2061 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		FD5C00341A678E57005C2061 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		FD5C003A1A678E57005C2061 /* iosDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iosDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD5C003F1A678E57005C2061 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FD5C00401A678E57005C2061 /* iosDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iosDemoTests.m; sourceTree = "<group>"; };
+		FD5C004A1A67A112005C2061 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		FD5C004B1A67A112005C2061 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		FD5C004D1A67A1B8005C2061 /* MessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageViewController.h; sourceTree = "<group>"; };
+		FD5C004E1A67A1B8005C2061 /* MessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageViewController.m; sourceTree = "<group>"; };
+		FD5C00501A67A1D1005C2061 /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		FD5C00511A67A1D1005C2061 /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		FD5C00531A67A1E6005C2061 /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		FD5C00541A67A1E6005C2061 /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		FD5FA1E51A6F2A3E00516DDE /* select.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = select.png; path = "../../../../../Downloads/代码和课件【UI基础1-6课】（基础）/06 UI第六章：无限互联iOS开发视频教程—UITabBarController/5.CustomTabBarDemo/1.UITabBarControllerDemo/select.png"; sourceTree = "<group>"; };
+		FD5FA1E71A6F2F3600516DDE /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 2.png; path = "../../../../../Downloads/代码和课件【UI基础1-6课】（基础）/06 UI第六章：无限互联iOS开发视频教程—UITabBarController/素材/2.png"; sourceTree = "<group>"; };
+		FD5FA1E81A6F2F3600516DDE /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 3.png; path = "../../../../../Downloads/代码和课件【UI基础1-6课】（基础）/06 UI第六章：无限互联iOS开发视频教程—UITabBarController/素材/3.png"; sourceTree = "<group>"; };
+		FD5FA1E91A6F2F3600516DDE /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 4.png; path = "../../../../../Downloads/代码和课件【UI基础1-6课】（基础）/06 UI第六章：无限互联iOS开发视频教程—UITabBarController/素材/4.png"; sourceTree = "<group>"; };
+		FD5FA1EA1A6F2F3600516DDE /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 5.png; path = "../../../../../Downloads/代码和课件【UI基础1-6课】（基础）/06 UI第六章：无限互联iOS开发视频教程—UITabBarController/素材/5.png"; sourceTree = "<group>"; };
+		FDD8146D1A78C70000D262DD /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		FDD8146E1A78C70000D262DD /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		FDDA04081A7B5540003B315D /* TestTableViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestTableViewViewController.h; sourceTree = "<group>"; };
+		FDDA04091A7B5540003B315D /* TestTableViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestTableViewViewController.m; sourceTree = "<group>"; };
+		FDF02E1B1A7CD5A40068479B /* ios_demo1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ios_demo1.jpg; sourceTree = "<group>"; };
+		FDFB87291A6A2E3B00B10BDD /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		FDFB872A1A6A2E3B00B10BDD /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9729408EFE411EB9F2A2F971 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +110,53 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		69F567D3F89E84BF246D13A1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BEC9D34C862F70774104CAE5 /* Pods.debug.xcconfig */,
+				47CDFC6C7DBE14C0C0A21031 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9C516A93F60C34C09FC064D6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2C9B2319DA86526D9783AE3 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FD45487F1A6D190C008DB479 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				FD4548801A6D1922008DB479 /* TabBar */,
+			);
+			name = Image;
+			sourceTree = "<group>";
+		};
+		FD4548801A6D1922008DB479 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				FD5FA1E71A6F2F3600516DDE /* 2.png */,
+				FD5FA1E81A6F2F3600516DDE /* 3.png */,
+				FD5FA1E91A6F2F3600516DDE /* 4.png */,
+				FD5FA1EA1A6F2F3600516DDE /* 5.png */,
+				FD5FA1E51A6F2A3E00516DDE /* select.png */,
+				FD454CE31A6D1BAC008DB479 /* tabBar.png */,
+				FD454CE11A6D1B63008DB479 /* 1.png */,
+			);
+			name = TabBar;
+			sourceTree = "<group>";
+		};
 		FD5C00181A678E57005C2061 = {
 			isa = PBXGroup;
 			children = (
 				FD5C00231A678E57005C2061 /* iosDemo */,
 				FD5C003D1A678E57005C2061 /* iosDemoTests */,
 				FD5C00221A678E57005C2061 /* Products */,
+				69F567D3F89E84BF246D13A1 /* Pods */,
+				9C516A93F60C34C09FC064D6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,12 +174,33 @@
 			children = (
 				FD5C00281A678E57005C2061 /* AppDelegate.h */,
 				FD5C00291A678E57005C2061 /* AppDelegate.m */,
-				FD5C002B1A678E57005C2061 /* ViewController.h */,
-				FD5C002C1A678E57005C2061 /* ViewController.m */,
-				FD5C002E1A678E57005C2061 /* Main.storyboard */,
+				FDFB87291A6A2E3B00B10BDD /* MainViewController.h */,
+				FDFB872A1A6A2E3B00B10BDD /* MainViewController.m */,
+				FD00AE841A736E0400F77335 /* LoginViewController.h */,
+				FD00AE851A736E0400F77335 /* LoginViewController.m */,
+				FD00AE871A737EAC00F77335 /* RegisterViewController.h */,
+				FD00AE881A737EAC00F77335 /* RegisterViewController.m */,
+				FD00AE8A1A7395CB00F77335 /* PasswordViewController.h */,
+				FD00AE8B1A7395CB00F77335 /* PasswordViewController.m */,
+				FD5C004A1A67A112005C2061 /* HomeViewController.h */,
+				FD5C004B1A67A112005C2061 /* HomeViewController.m */,
+				FD5C00531A67A1E6005C2061 /* SettingViewController.h */,
+				FD5C00541A67A1E6005C2061 /* SettingViewController.m */,
+				FD231EB61A6CC05100C60E54 /* OtherViewController.h */,
+				FD231EB71A6CC05100C60E54 /* OtherViewController.m */,
 				FD5C00311A678E57005C2061 /* Images.xcassets */,
-				FD5C00331A678E57005C2061 /* LaunchScreen.xib */,
+				FD8A6E851A76423600F7BA65 /* config */,
 				FD5C00241A678E57005C2061 /* Supporting Files */,
+				FD5C004D1A67A1B8005C2061 /* MessageViewController.h */,
+				FD5C004E1A67A1B8005C2061 /* MessageViewController.m */,
+				FD5C00501A67A1D1005C2061 /* SearchViewController.h */,
+				FD5C00511A67A1D1005C2061 /* SearchViewController.m */,
+				FDD8146D1A78C70000D262DD /* TestViewController.h */,
+				FDD8146E1A78C70000D262DD /* TestViewController.m */,
+				FD5813691A791204002B787C /* BingoViewController.h */,
+				FD58136A1A791204002B787C /* BingoViewController.m */,
+				FDDA04081A7B5540003B315D /* TestTableViewViewController.h */,
+				FDDA04091A7B5540003B315D /* TestTableViewViewController.m */,
 			);
 			path = iosDemo;
 			sourceTree = "<group>";
@@ -96,6 +208,8 @@
 		FD5C00241A678E57005C2061 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FDF02E1B1A7CD5A40068479B /* ios_demo1.jpg */,
+				FD45487F1A6D190C008DB479 /* Image */,
 				FD5C00251A678E57005C2061 /* Info.plist */,
 				FD5C00261A678E57005C2061 /* main.m */,
 			);
@@ -119,6 +233,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		FD8A6E851A76423600F7BA65 /* config */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = config;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +247,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FD5C00441A678E57005C2061 /* Build configuration list for PBXNativeTarget "iosDemo" */;
 			buildPhases = (
+				FE5763957B962C018BB1E6B2 /* Check Pods Manifest.lock */,
 				FD5C001D1A678E57005C2061 /* Sources */,
 				FD5C001E1A678E57005C2061 /* Frameworks */,
 				FD5C001F1A678E57005C2061 /* Resources */,
+				3FB494346FFBAFADAC5FC114 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -199,9 +322,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD5C00301A678E57005C2061 /* Main.storyboard in Resources */,
-				FD5C00351A678E57005C2061 /* LaunchScreen.xib in Resources */,
+				FDF02E1C1A7CD5A40068479B /* ios_demo1.jpg in Resources */,
 				FD5C00321A678E57005C2061 /* Images.xcassets in Resources */,
+				FD5FA1ED1A6F2F3600516DDE /* 4.png in Resources */,
+				FD5FA1E61A6F2A3E00516DDE /* select.png in Resources */,
+				FD5FA1EB1A6F2F3600516DDE /* 2.png in Resources */,
+				FD5FA1EC1A6F2F3600516DDE /* 3.png in Resources */,
+				FD5FA1EE1A6F2F3600516DDE /* 5.png in Resources */,
+				FD454CE41A6D1BAC008DB479 /* tabBar.png in Resources */,
+				FD454CE21A6D1B63008DB479 /* 1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,14 +343,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3FB494346FFBAFADAC5FC114 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE5763957B962C018BB1E6B2 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FD5C001D1A678E57005C2061 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD5C002D1A678E57005C2061 /* ViewController.m in Sources */,
+				FD5C004C1A67A112005C2061 /* HomeViewController.m in Sources */,
+				FDD8146F1A78C70000D262DD /* TestViewController.m in Sources */,
+				FD00AE8C1A7395CB00F77335 /* PasswordViewController.m in Sources */,
+				FD231EB81A6CC05100C60E54 /* OtherViewController.m in Sources */,
+				FDDA040A1A7B5540003B315D /* TestTableViewViewController.m in Sources */,
 				FD5C002A1A678E57005C2061 /* AppDelegate.m in Sources */,
+				FD5C00521A67A1D1005C2061 /* SearchViewController.m in Sources */,
+				FD5C004F1A67A1B8005C2061 /* MessageViewController.m in Sources */,
+				FD58136B1A791204002B787C /* BingoViewController.m in Sources */,
+				FD00AE891A737EAC00F77335 /* RegisterViewController.m in Sources */,
+				FD00AE861A736E0400F77335 /* LoginViewController.m in Sources */,
+				FDFB872B1A6A2E3B00B10BDD /* MainViewController.m in Sources */,
 				FD5C00271A678E57005C2061 /* main.m in Sources */,
+				FD5C00551A67A1E6005C2061 /* SettingViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,25 +416,6 @@
 			targetProxy = FD5C003B1A678E57005C2061 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		FD5C002E1A678E57005C2061 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FD5C002F1A678E57005C2061 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		FD5C00331A678E57005C2061 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FD5C00341A678E57005C2061 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		FD5C00421A678E57005C2061 /* Debug */ = {
@@ -341,8 +496,10 @@
 		};
 		FD5C00451A678E57005C2061 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEC9D34C862F70774104CAE5 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = YES;
 				INFOPLIST_FILE = iosDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -351,8 +508,10 @@
 		};
 		FD5C00461A678E57005C2061 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47CDFC6C7DBE14C0C0A21031 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = YES;
 				INFOPLIST_FILE = iosDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -412,6 +571,7 @@
 				FD5C00461A678E57005C2061 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FD5C00471A678E57005C2061 /* Build configuration list for PBXNativeTarget "iosDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +580,7 @@
 				FD5C00491A678E57005C2061 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
